@@ -1,0 +1,49 @@
+{
+  "branding": {
+    "os_name": "MyCustomOS",
+    "logo_light": "https://raw.githubusercontent.com/stepanzapletal/updater_repo/main/assets/logo_light.png",
+    "logo_dark": "https://raw.githubusercontent.com/stepanzapletal/updater_repo/main/assets/logo_dark.png"
+  },
+  "latest": {
+    "version": "OS2.0.12.0.VNCEUXM",
+    "display_version": "MyCustomOS 2.1",
+    "build_timestamp": 1764000000,
+    "android_version": "15.0",
+    "branch": "F",
+    "is_beta": false,
+    "download_url": "https://downloads.example.org/myrom_OS2.0.12.0.zip",
+    "mirrors": [],
+    "filename": "myrom_OS2.0.12.0.zip",
+    "filesize": "4.8G",
+    "md5": "0123456789abcdef0123456789abcdef",
+    "notice": "Optional notice shown below the changelog.",
+    "ab_streaming": null,
+    "changelog": [
+      {
+        "section": "System",
+        "icon": "https://raw.githubusercontent.com/stepanzapletal/updater_repo/main/assets/system.png",
+        "banner_portrait": "https://raw.githubusercontent.com/stepanzapletal/updater_repo/main/assets/system_portrait.png",
+        "banner_landscape": "https://raw.githubusercontent.com/stepanzapletal/updater_repo/main/assets/system_landscape.png",
+        "items": [
+          { "text": "Change one." },
+          {
+            "text": "Change with an image.",
+            "image": {
+              "url": "https://raw.githubusercontent.com/stepanzapletal/updater_repo/main/assets/change.png",
+              "w": 1080,
+              "h": 600
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "releases": {
+    "OS2.0.10.0.VNCEUXM": {
+      "display_version": "MyCustomOS 2.0",
+      "changelog": [
+        { "section": "System", "items": [{ "text": "Previous release notes." }] }
+      ]
+    }
+  }
+}
