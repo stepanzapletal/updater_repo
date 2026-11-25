@@ -4,6 +4,30 @@
     "logo_light": "https://raw.githubusercontent.com/stepanzapletal/updater_repo/main/assets/logo_light.png",
     "logo_dark": "https://raw.githubusercontent.com/stepanzapletal/updater_repo/main/assets/logo_dark.png"
   },
-  "latest": null,
+  "latest": {
+    "version": "DUMMY-TEST-1",
+    "display_version": "Custom OS download test",
+    "build_timestamp": 4102444800,
+    "android_version": "15",
+    "branch": "F",
+    "is_beta": false,
+    "download_url": "https://raw.githubusercontent.com/stepanzapletal/updater_repo/main/assets/dummy_update_test.zip",
+    "mirrors": [],
+    "filename": "dummy_update_test.zip",
+    "filesize": "1K",
+    "md5": "3d657b1dfe23043c9c7ca08a1c1f681b",
+    "notice": "TEST ONLY: This is not a ROM update. It contains no flashable payload; installation should fail without applying an update.",
+    "ab_streaming": null,
+    "changelog": [
+      {
+        "section": "Test only",
+        "items": [
+          {
+            "text": "Manifest and download flow test. The archive contains no ROM payload and must not be treated as an update."
+          }
+        ]
+      }
+    ]
+  },
   "releases": {}
 }

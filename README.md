@@ -40,3 +40,13 @@ manifest must be valid JSON and reachable at the exact device filename.
 - `devices/manifest.example.json`: full example manifest schema.
 - `assets/`: put branding and changelog artwork here; use HTTPS Raw URLs in
   the manifests.
+
+## Dummy download test currently published in the manifest
+
+The active `gale_global.json` temporarily advertises `DUMMY-TEST-1` and points
+at `assets/dummy_update_test.zip`. This tiny ZIP contains only a warning text
+file; it has no `payload.bin`, recovery script, or ROM contents. It is for
+checking manifest retrieval, UI rendering, and the download/checksum path. The
+native install step should fail because there is no update payload. Replace
+`latest` with a real, correctly signed ROM package before using this updater
+for actual updates.
